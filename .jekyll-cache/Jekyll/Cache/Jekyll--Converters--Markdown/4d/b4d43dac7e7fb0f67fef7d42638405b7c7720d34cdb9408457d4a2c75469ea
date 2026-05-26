@@ -1,4 +1,4 @@
-I"�<<p>It feels like any time I have a conversation about attributing data used to train AI models, the completely understandable impulse to want attribution starts to break when confronted with some practical implementation questions.</p>
+I"�<<p>It feels like any time I have a conversation about attributing data used to train AI models, the completely understandable impulse to want attribution starts to break when confronted with some practical implementation questions.</p>
 
 <p>This is especially true in the context of training data that comes from open communities. These communities rely on some sort of open license that requires attribution (say, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY</a> or <a href="https://opensource.org/license/mit">MIT</a>), and have been built on a set of norms that place a high value on attribution. Regardless of whether or not complying with the license <a href="https://knowingmachines.org/knowing-legal-machines/legal-explainer/questions/can-gen-ai-companies-train-their-systems-on-things-i-made">is legally required</a> in these scenarios, many members of the community view attribution as a key element of its social contract.</p>
 
@@ -48,7 +48,7 @@
 
 <p>If it is fair use to train AI models on unlicensed data, listing the training data won’t be a roadmap for lawsuits because creators don’t have a copyright claim to bring against trainers.</p>
 
-<p>Also, <a href="(https://knowingmachines.org/knowing-legal-machines/legal-explainer)">current experience suggests that lawsuits aren’t waiting for this particular roadmap anyway</a>.</p>
+<p>Also, <a href="https://knowingmachines.org/knowing-legal-machines/legal-explainer">current experience suggests that lawsuits aren’t waiting for this particular roadmap anyway</a>.</p>
 
 <p>That means that the roadmap question may be best answered by examining the underlying fair use question, not by weighing the value of attribution.  And the fair use fate of AI training is probably much more relevant to it than the attribution compliance question.  So I’m going to call this concern both worth flagging and out of scope of this post.</p>
 

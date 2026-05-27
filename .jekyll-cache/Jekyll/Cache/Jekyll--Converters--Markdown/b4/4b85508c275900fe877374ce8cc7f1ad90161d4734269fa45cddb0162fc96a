@@ -1,2 +1,0 @@
-I"6<p>In celebration of <a href="https://en.wikipedia.org/wiki/Public_Domain_Day">Public Domain Day</a> 2020 I decided to try to turn the old monitor in my office into a picture frame to display a rotating collection of public domain works.  The Cleveland Museum of Art (CMA) launched a robust <a href="https://www.clevelandart.org/open-access">Open Access program</a> in 2019, so I decided to use <a href="http://openaccess-api.clevelandart.org/">their API</a> to power it. This blog post explains all of the steps in creating the project so you can make one too.</p>
-:ET

@@ -1,33 +1,9 @@
 # Licensing Clarification
 
-The original HPSTR Jekyll Theme is licensed under the MIT license. Those files, and any modifications that I make to those files, continue to be licensed under the MIT license.
+This blog used the HPSTR Jekyll theme for a number of years.  In May of 2026 it transitioned to 11ty.  In doing so, it rewrite the theme to work with 11ty (witih additional modifications made on an ongoing basis).  The original HPSTR Jekyll Theme, parts of which remain in this codebase, is licensed under the MIT license.  Any edits that I have made to those files are also licensed under an MIT license. 
 
 The content of this blog (posts, media, pdfs, etc.) are all licensed under their respective licenses. To the extent that I have a copyright in the content it is generally licensed under a CC BY-SA 4.0, although the specific licensing on any individual thing carries.  
 
-# HPSTR Jekyll Theme
+# 11ty Version Notes
 
-They say three times the charm, so here is another free responsive Jekyll theme for you. I've learned a ton since open sourcing [my first two themes](https://mademistakes.com/work/jekyll-themes/), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory.
-
-**Compatible with Jekyll 3.0 and up.**
-
-## What HPSTR brings to the table:
-
-* Modern and minimal design.
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Sweet animated menu with support for drop-downs.
-* Optional [Disqus](http://disqus.com) comments and social sharing links.
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page](http://mmistakes.github.io/hpstr-jekyll-theme/404.html) to get you started.
-* [Syntax highlighting](http://mmistakes.github.io/hpstr-jekyll-theme/code-highlighting-post/) stylesheet to make your code examples look snazzy
-* [Available in Spanish](https://github.com/cruznick/hpstr-jekyll-theme/tree/es). Thanks [@cruznick](https://github.com/cruznick)!
-
-![HPSTR Theme Preview screenshot](http://mmistakes.github.io/hpstr-jekyll-theme/images/hpstr-jekyll-theme-preview.jpg)
-
----
-
-## Getting Started
-
-HPSTR takes advantage of SCSS and data files to make customizing easier. This theme requires Jekyll 3.x and will not work with older versions properly.
-
-To learn how to install and use this theme check out the [Setup Guide](https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/) for more information.
+Future dated (as defined by the date in the post front matter) posts are filtered out by `.filter(item => item.date <= new Date())` in `eleventy.config.mjs`.

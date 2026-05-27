@@ -1,17 +1,0 @@
-I"û<p>On November 13, 2014 I purchased the domain <a href="https://cleverhans.org/">cleverhans.org</a> because I decided that the world needed a digital version of <a href="https://en.wikipedia.org/wiki/Clever_Hans">Clever Hans</a>.</p>
-
-<p>At the time, I did not know how to program in any meaningful sense.  I had used <a href="https://en.wikipedia.org/wiki/Logo_(programming_language)">logo</a> in elementary school and taken a class in <a href="https://en.wikipedia.org/wiki/BASIC">BASIC</a> in middle school. I also used <a href="https://en.wikipedia.org/wiki/Markdown">markdown</a> to write posts for the Public Knowledge blog.  Nonetheless, the world needed digital Clever Hans and CleverHans.org was going to be my excuse to learn how to do it.</p>
-
-<p>Almost seven years later, today I finally figured out how to put a functional <a href="https://cleverhans.org/">CleverHans.org</a> site on the internet.  It took longer than I thought.</p>
-
-<p>Along the way, I took massive detours. I learned some python (<a href="https://learnpythonthehardway.org/">the hard way</a>, of course).  I learned some <a href="https://www.arduino.cc/">arduino</a>, <a href="https://processing.org/">processing</a>, <a href="https://p5js.org/">p5.js</a>, <a href="https://circuitpython.readthedocs.io">circuitpython</a>, and even <a href="https://ml5js.org/">ml5.js</a>.  I bought books and jumped around the internet.  Using <a href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw">Coding Train</a> to learn p5.js tricked me into learning some javascript.  I converted this site into <a href="https://jekyllrb.com/">Jekyll</a>.  I played around with <a href="http://phaser.io/">phaser</a>.  I built <a href="https://michaelweinberg.org/tags/#projects">other dumb things</a>.</p>
-
-<p>I learned the basics of most of these without mastering any. Every time I thought I had things figured out, I would come back to Clever Hans. And every time I came back, I discovered a new thing that I did not quite know how to do.</p>
-
-<p>Finally, I started another run at it over the summer.  I purchased Emanuele Feronatoâ€™s <a href="https://phaser.io/shop/books/phaser3-cross-platform-games">phaser book</a> and this time it actually worked. Everything I had learned from all of my stabs at programming finally came together.  As a bonus, in the years since I purchased the domain, tools like github and cloudflare pages meant that I could host the site for free.</p>
-
-<p><a href="https://cleverhans.org/">CleverHans.org</a> is a dumb site that does not do very much.  It certainly does not look like something that took seven years to build.  Fortunately for me, it is just dumb enough and does just little enough that I always felt like a working version was just around the corner. In its way, it provided just enough motivation to get me to learn a bit more programming and stick with it just a few minutes longer.</p>
-
-<p>And now the world does have a digital version of Clever Hans. On the internet. <a href="https://www.youtube.com/watch?v=iJ__KkzH1U8">What a world</a>.</p>
-
-:ET

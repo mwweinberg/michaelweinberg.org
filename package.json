@@ -1,24 +1,15 @@
 {
-  "name": "hpstr-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/hpstr-jekyll-theme/",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mmistakes/hpstr-jekyll-theme.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mmistakes/hpstr-jekyll-theme/issues"
-  },
-  "engines": {
-    "node": ">= 0.10.0"
+  "name": "michaelweinberg-org",
+  "version": "1.0.0",
+  "description": "Michael Weinberg's personal website",
+  "scripts": {
+    "build": "mkdir -p _site/assets/css && sass assets/css/main.scss _site/assets/css/main.css --load-path _sass --no-source-map --style compressed && eleventy",
+    "serve": "concurrently \"sass assets/css/main.scss _site/assets/css/main.css --load-path _sass --no-source-map --watch\" \"eleventy --serve\"",
+    "clean": "rm -rf _site"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-watch": "~0.5.2",
-    "grunt-contrib-imagemin": "~0.2.0",
-    "grunt-svgmin": "~0.2.0"
+    "@11ty/eleventy": "^3.0.0",
+    "concurrently": "^9.0.0",
+    "sass": "^1.77.0"
   }
 }

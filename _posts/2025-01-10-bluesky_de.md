@@ -2,7 +2,7 @@
 layout: post
 category: blog
 title: Bluesky Bot to Translate Local News
-date: 2029-05-10
+date: 2025-01-10
 tags:
 - projects
 - python

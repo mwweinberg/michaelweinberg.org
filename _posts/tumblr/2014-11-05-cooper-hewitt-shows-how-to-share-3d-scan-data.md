@@ -1,0 +1,38 @@
+---
+layout: post
+title: Cooper Hewitt Shows How To Share 3D Scan Data Right
+date: '2014-11-05T00:00:00-05:00'
+tags:
+- pk
+- 3dprinting
+- make
+tumblr_permalink: post/108012837300/cooper-hewitt-shows-how-to-share-3d-scan-data
+---
+<p><br/><img alt=" img" src="/images/2014-11-05-cooper-hewitt-shows-how-to-share-3d-scan-data.html0.jpg"/></p>
+<p><em>This article was originally published on<span class="Apple-converted-space"> </span><a href="http://makezine.com/2014/11/03/cooper-hewitt-shows-how-to-share-3d-scan-data-right/" target="_blank">Makezine.com</a>.</em></p>
+<p>Recently, the Cooper Hewitt Smithsonian Design Museum released<span class="Apple-converted-space"> </span><a href="http://www.cooperhewitt.org/about/mansionmodel/" target="_blank">detailed 3D scan data for its home</a>. And it has a pretty nice home.<span class="Apple-converted-space"> </span><a href="http://www.cooperhewitt.org/" target="_blank">The museum</a>, which is located in Manhattan and is dedicated to historic and contemporary design, is housed in the former mansion of Andrew Carnegie. Built around the turn of the last century when Carnegie<span class="Apple-converted-space"> </span><a href="http://www.pbs.org/wgbh/amex/carnegie/" target="_blank">was arguably the richest man in the world</a>, the mansion itself makes Cooper Hewitt worth the visit. Now, you can just download the files and visit the mansion from the comfort of your sofa.</p>
+<p>That in and of itself is a pretty cool thing and would probably be worth a stand alone blog post. Being able to download one of the world’s historic buildings, peek around at your leisure, and 3D print it however you want is fairly amazing. But that’s not really what this blog post is about.</p>
+<p>Instead, this post is about how the Cooper Hewitt decided to make the mansion available to the public. Specifically, how they went out of their way to encourage people to do interesting things with the files without restriction. Hopefully, it will begin to serve as a model for other institutions working to make scans available to the public.</p>
+<p>Let’s break down exactly what Cooper Hewitt did right:</p>
+<p><strong>Make it Clear That the File is Available</strong></p>
+<p><img alt="" src="/images/2014-11-05-cooper-hewitt-shows-how-to-share-3d-scan-data.html1.jpg"/></p>
+<p>Let’s start at the top. This isn’t a look-but-don’t-touch page with some jankyproprietary viewer that crashes your browser. Right out of the box, the page let’s you know that the mansion is here for you to download – and use outside of Cooper Hewitt’s control.</p>
+<p><strong>Encourage Free Remix and Reuse</strong></p>
+<p><a href="https://makezineblog.files.wordpress.com/2014/11/thingies.jpg" target="_blank"><img alt="thingies Cooper Hewitt Shows How To Share 3D Scan Data Right" height="87" src="https://makezineblog.files.wordpress.com/2014/11/thingies.jpg?w=620&amp;h=87" title="Cooper Hewitt Shows How To Share 3D Scan Data Right" width="620"/></a></p>
+<p>This is probably the best part of the entire site. A clear, unambiguous invitation for people not only to download the file and view it, but to remix and reuse it.</p>
+<p><strong>Give People the Data They Need, In Ways They Can Use It <img alt="downloads Cooper Hewitt Shows How To Share 3D Scan Data Right" height="429" src="https://makezineblog.files.wordpress.com/2014/11/downloads.jpg?w=620&amp;h=429" title="Cooper Hewitt Shows How To Share 3D Scan Data Right" width="620"/></strong></p>
+<p>Some people want as much data as they can get, with full color and texture. Why not set a level in your next videogame in the Carnegie Mansion? For them, there is a big FBX file available. Others are just looking to 3D print a model, and may not even have tools to easily work with the FBX file. Those users can download the STL file and get to printing.</p>
+<p><strong>License Permissively (Or, the One Part That Gives Me Pause)</strong></p>
+<p><a href="https://makezineblog.files.wordpress.com/2014/11/license.jpg" target="_blank"><img alt="license Cooper Hewitt Shows How To Share 3D Scan Data Right" height="485" src="https://makezineblog.files.wordpress.com/2014/11/license.jpg?w=620&amp;h=485" title="Cooper Hewitt Shows How To Share 3D Scan Data Right" width="620"/></a></p>
+<p><em>update: Seb Chan at Cooper Hewitt<span class="Apple-converted-space"> </span><a href="https://twitter.com/sebchan/status/529421313358565377" target="_blank">explains</a><span class="Apple-converted-space"> </span>that they used CCO because the status of 3D scan files is not necessarily clear in non-US jurisdictions and they wanted to make crystal clear that these files were not protected by copyright.  That’s a pretty good reason.</em></p>
+<p>This is a super-permissive license. Why does it give me pause? Because, in all likelihood, Cooper Hewitt doesn’t really hold any copyright in the file to license in the first place. The building itself is not protected by copyright, and the state of the law right now does not give people who scan an object an independent copyright in that scan. As a result, even a super-restrictive license would probably not be enforceable.</p>
+<p>But even then, Cooper Hewitt makes it easy to overlook that concern. First they use the<span class="Apple-converted-space"> </span><a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">Creative Commons Zero license</a>, which effectively waives all rights in the file. I would argue that such a license is redundant, but at least it doesn’t introduce potentially unenforceable restrictions into the process.</p>
+<p>Second, Cooper Hewitt makes a bunch of reasonable requests to users. Importantly, these are not requirements backed up by a legal threat. Instead, they are just telling you what they would appreciate you do. These requests are designed to make the dataset even more useful to everyone, let people know how Cooper Hewitt would appreciate they use the data, and make it easy for other people to track down the original files if they are interested.</p>
+<p><strong>Make Getting in Touch Easy</strong></p>
+<p><a href="https://makezineblog.files.wordpress.com/2014/11/gettingintouch.jpg" target="_blank"><img alt="gettingintouch Cooper Hewitt Shows How To Share 3D Scan Data Right" height="206" src="https://makezineblog.files.wordpress.com/2014/11/gettingintouch.jpg?w=620&amp;h=206" title="Cooper Hewitt Shows How To Share 3D Scan Data Right" width="620"/></a></p>
+<p>Making it easy for users to get in touch greatly increases the likelihood that Cooper Hewitt will learn about how they are using the models. That should make it easier for Cooper Hewitt to prioritize the scanning of other things, and to understand what is most useful to people.</p>
+<p>It may also help get more things scanned and available. This may not be true for Cooper Hewitt, but often neat new things happen at institutions because a handful of people within the institution are passionately advocating for it to happen. In those cases, positive feedback and information about what users are doing with the files make it easier to push for even more scanning and releasing of files.</p>
+<p><strong>A Great Model</strong></p>
+<p>The Carnegie Mansion file release is a fantastic example of how to make architectural scans available to the public in a way that truly encourages engagement. Here’s to hoping that it is the first of many. Now stop reading this post and start downloading files. And be sure to let Cooper Hewitt know if you do something neat.</p>
+
+<p><em>Top image credit: Flickr user<span class="Apple-converted-space"> </span><a href="https://www.flickr.com/photos/kentwang/58872824/in/photostream/" target="_blank">Kent Wang</a></em></p>

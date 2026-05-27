@@ -1,0 +1,18 @@
+{
+  "title": "Michael Weinberg",
+  "description": "I put things here so they are on the internet",
+  "url": "https://michaelweinberg.org",
+  "reading_time": false,
+  "words_per_minute": 200,
+  "google_analytics": "UA-58511461-1",
+  "disqus_shortname": "",
+  "owner": {
+    "name": "Michael Weinberg",
+    "avatar": "china_internet_police_good_400x400.jpg",
+    "bio": "Executive Director of NYU's Engelberg Center for Innovation Law and Policy. Board Member at the Open Source Hardware Association. Maker of poorly made things.",
+    "email": "hello@michaelweinberg.org",
+    "github": "MWWeinberg",
+    "linkedin": "weinbergmichael",
+    "bluesky": "michaelweinberg.org"
+  }
+}

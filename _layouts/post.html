@@ -26,14 +26,14 @@
     <header class="header-title">
       <div class="header-title-wrap">
         {% if link %}
-          <h1 class="entry-title"><i class="fa fa-bookmark permalink"></i> <a href="{{ link }}">{{ title }}</a></h1>
+          <h1 class="entry-title"><i class="fa-solid fa-bookmark permalink"></i> <a href="{{ link }}">{{ title }}</a></h1>
         {% else %}
           <h1 class="entry-title"><a href="{{ page.url }}" rel="bookmark" title="{{ title }}">{{ title }}</a></h1>
         {% endif %}
         <h2><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
         {% if site.reading_time %}
         <p class="entry-reading-time">
-          <i class="fa fa-clock-o"></i>
+          <i class="fa-solid fa-clock"></i>
           {% include "read-time.html" %}
         </p><!-- /.entry-reading-time -->
         {% endif %}

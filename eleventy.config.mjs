@@ -102,6 +102,13 @@ export default function(eleventyConfig) {
       .replace(/%e/g, String(d.getUTCDate()).padStart(2, " "));
   });
 
+  eleventyConfig.addFilter("absolutifyUrls", (content, base) => {
+    if (!content) return content;
+    return content
+      .replace(/href="\/(?!\/)/g, `href="${base}/`)
+      .replace(/src="\/(?!\/)/g, `src="${base}/`);
+  });
+
   eleventyConfig.addFilter("xml_escape", (str) =>
     str ? str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
               .replace(/"/g, "&quot;").replace(/'/g, "&apos;") : ""

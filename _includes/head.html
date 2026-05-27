@@ -10,6 +10,7 @@
 <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
+{% if image.feature %}<meta property="og:image" content="{{ site.url }}/images/{{ image.feature }}">{% endif %}
 
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">

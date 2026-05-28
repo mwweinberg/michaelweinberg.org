@@ -1,3 +1,12 @@
+{% if site.google_analytics %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.google_analytics }}');
+</script>
+{% endif %}
 <meta charset="utf-8">
 <title>{% if title %}{{ title }} &#8211; {% endif %}{{ site.title }}</title>
 <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
@@ -15,21 +24,13 @@
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-<!-- Webfonts -->
-<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-<meta http-equiv="cleartype" content="on">
-
-<!-- Load Modernizr -->
-<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+<script>document.documentElement.classList.remove('no-js');</script>
 
 <!-- Icons -->
 <link rel="shortcut icon" href="/favicon.ico">

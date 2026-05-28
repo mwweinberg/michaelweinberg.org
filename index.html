@@ -17,7 +17,7 @@ permalink: "{% if pagination.pageNumber > 0 %}/page{{ pagination.pageNumber | pl
   <header>
     {% if post.data.image.feature %}
       <div class="entry-image-index">
-        <a href="{{ post.url }}" title="{{ post.data.title }}"><img src="/images/{{ post.data.image.feature }}" alt="{{ post.data.image.alt | default: '' }}"></a>
+        <a href="{{ post.url }}" title="{{ post.data.title }}"><img src="/images/{{ post.data.image.feature }}" alt="{{ post.data.image.alt | default: '' }}" loading="lazy"></a>
       </div><!-- /.entry-image -->
     {% endif %}
     <div class="entry-meta">

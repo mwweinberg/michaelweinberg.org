@@ -8,15 +8,10 @@
 
 /* clearfix */
 @mixin clearfix {
-  *zoom: 1;
-
   &:before,
   &:after {
     display: table;
     content: "";
-    // Fixes Opera/contenteditable bug:
-    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
-    line-height: 0;
   }
 
   &:after {
@@ -47,22 +42,18 @@
 
 /* Full-fat vertical rhythm */
 @mixin font-size($size) {
-  font-size: 0px + $size;
   font-size: 0rem + $size / $doc-font-size;
   line-height: 0 + round($doc-line-height / $size*10000) / 10000;
-  margin-bottom: 0px + $doc-line-height;
   margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
 }
 
 /* Just the REMs */
 @mixin font-rem($size) {
-  font-size: 0px + $size;
   font-size: 0rem + $size / $doc-font-size;
 }
 
 /* Just font-size and line-height */
 @mixin font($size) {
-  font-size: 0px + $size;
   font-size: 0rem + $size / $doc-font-size;
   line-height: 0 + round($doc-line-height / $size*10000) / 10000;
 }
@@ -101,24 +92,25 @@
 }
 
 /* Hidden but available to speaking browsers */
-@mixin visuallyhidden() { 
-  overflow : hidden; 
-  position : absolute;
-  clip : rect(0 0 0 0); 
-  height : 1px; 
-  width : 1px;
-  margin : -1px; 
-  padding : 0; 
-  border : 0; 
+@mixin visuallyhidden() {
+  overflow: hidden;
+  position: absolute;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
 
 /* Make visuallyhidden focusable with a keyboard */
-.visuallyhidden.focusable:active, 
-.visuallyhidden.focusable:focus { 
-  position : static;
-  clip : auto; 
-  height : auto; 
-  width : auto;
-  margin : 0; 
-  overflow: visible; 
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  position: static;
+  clip-path: none;
+  height: auto;
+  width: auto;
+  margin: 0;
+  overflow: visible;
 }

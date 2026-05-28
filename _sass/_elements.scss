@@ -20,13 +20,12 @@ figure {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  @include clearfix();
 
   img {
     margin-bottom: 10px;
   }
 
-  a { 
+  a {
 
     img {
       transform: translate(0, 0);
@@ -42,15 +41,17 @@ figure {
   /* 2 columns */
   &.half {
     @media #{$large} {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 10px;
 
       img {
         width: 310px;
-        float: left;
-        margin-right: 10px;
       }
 
       figcaption {
-        clear: left;
+        width: 100%;
       }
     }
   }
@@ -58,15 +59,17 @@ figure {
   /* 3 columns */
   &.third {
     @media #{$large} {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 10px;
 
       img {
         width: 200px;
-        float: left;
-        margin-right: 10px;
       }
 
       figcaption {
-        clear: left;
+        width: 100%;
       }
     }
   }

@@ -15,7 +15,6 @@ body {
 
 .entry,
 .hentry {
-	@include clearfix;
 
 	h1, h2, h3, h4, h5, h6, p, li {
 		word-wrap: break-word;
@@ -94,16 +93,15 @@ body {
 .feature .header-title {
 	position: absolute;
 	top: 0;
-	display: table;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin-top: 0;
 	width: 100%;
 	height: $feature-image-height;
 	overflow: hidden;
 
 	.header-title-wrap {
-		display: table-cell;
-		vertical-align: middle;
-		margin: 0 auto;
 		text-align: center;
 	}
 
@@ -175,6 +173,16 @@ body {
 			min-height: $front-page-feature-image-height;
 		}
 	}
+
+	.site-title,
+	.site-subtitle {
+		text-align: right;
+		margin-right: 45px;
+	}
+
+	.site-subtitle {
+		text-transform: none;
+	}
 }
 
 // Feature Image Caption
@@ -214,6 +222,10 @@ body {
 	@include font-rem(12);
 	text-transform: uppercase;
 	color: lighten($base-color,60);
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 4px;
 
 	a {
 		color: lighten($base-color,60);
@@ -227,14 +239,13 @@ body {
 	}
 
 	.tag {
-		display: inline-block;
+		display: inline-flex;
 		margin: 4px;
 		color: #fff;
 		border-radius: 3px;
 		background-color: lighten($base-color,50);
 
 		span {
-			float: left;
 			padding: 2px 6px;
 		}
 
@@ -249,7 +260,7 @@ body {
 	}
 
 	.entry-reading-time {
-		float: right;
+		margin-left: auto;
 	}
 }
 
@@ -371,7 +382,6 @@ header .entry-meta {
 	}
 
 	text-align: center;
-	@include clearfix;
 }
 
 .read-more-header {
@@ -415,26 +425,27 @@ header .entry-meta {
 
 .read-more-list {
 	border-top: solid 2px lighten($base-color,80);
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .list-item {
 	width: 100%;
 	text-align: left;
 
-	h4 { 
+	h4 {
 		@include font-rem(18);
-		margin-bottom: 0; 
+		margin-bottom: 0;
 	}
 
-	span { 
+	span {
 		display: block;
 		@include font-rem(14);
 		color: lighten($base-color,50);
 	}
 
 	@media #{$medium} {
-		width: 49%;
-		float: left;
+		width: 50%;
 
 		&:nth-child(2) {
 			text-align: right;
@@ -520,7 +531,6 @@ header .entry-meta {
    ========================================================================== */
 
 .footer-wrapper {
-	@include clearfix;
 	margin: 2em auto;
 	text-align: center;
 	color: lighten($text-color,20);

@@ -47,6 +47,31 @@
   </article>
 </div><!-- /#main -->
 
+{% assign adjacent = collections.posts | getAdjacentPosts: page.url %}
+{% if adjacent.newer or adjacent.older %}
+<div class="read-more">
+  <div class="read-more-header">
+    <h3>Read More</h3>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content">
+    <div class="read-more-list">
+      {% if adjacent.newer %}
+      <div class="list-item">
+        <h4><a href="{{ adjacent.newer.url }}">{{ adjacent.newer.data.title }}</a></h4>
+        <span>{{ adjacent.newer.date | date: "%B %d, %Y" }}</span>
+      </div><!-- /.list-item -->
+      {% endif %}
+      {% if adjacent.older %}
+      <div class="list-item">
+        <h4><a href="{{ adjacent.older.url }}">{{ adjacent.older.data.title }}</a></h4>
+        <span>{{ adjacent.older.date | date: "%B %d, %Y" }}</span>
+      </div><!-- /.list-item -->
+      {% endif %}
+    </div><!-- /.read-more-list -->
+  </div><!-- /.read-more-content -->
+</div><!-- /.read-more -->
+{% endif %}
+
 <div class="footer-wrapper">
   <footer role="contentinfo">
     {% include "footer.html" %}

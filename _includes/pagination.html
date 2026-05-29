@@ -1,22 +1,39 @@
 {% if pagination.pages.size > 1 %}
-<div class="pagination">
+{% assign current = pagination.pageNumber | plus: 1 %}
+{% assign total = pagination.pages.size %}
+<nav class="pagination" aria-label="Page navigation">
   <ul class="inline-list">
     {% if pagination.href.previous %}
-      <li><a href="{{ pagination.href.previous }}" class="btn">Previous</a></li>
+      <li><a href="{{ pagination.href.previous }}" class="btn">← Previous</a></li>
     {% endif %}
 
+    {% assign show_ellipsis = false %}
     {% for pageUrl in pagination.hrefs %}
       {% assign pageNum = forloop.index %}
-      {% if pageUrl == page.url %}
-        <li><strong class="current-page">{{ pageNum }}</strong></li>
+      {% assign diff = pageNum | minus: current | abs %}
+      {% assign show = false %}
+      {% if pageNum == 1 or pageNum == total or diff <= 2 %}
+        {% assign show = true %}
+      {% endif %}
+
+      {% if show %}
+        {% if show_ellipsis %}
+          <li class="ellipsis" aria-hidden="true">…</li>
+        {% endif %}
+        {% assign show_ellipsis = false %}
+        {% if pageUrl == page.url %}
+          <li><strong class="current-page" aria-current="page">{{ pageNum }}</strong></li>
+        {% else %}
+          <li><a href="{{ pageUrl }}">{{ pageNum }}</a></li>
+        {% endif %}
       {% else %}
-        <li><a href="{{ pageUrl }}">{{ pageNum }}</a></li>
+        {% assign show_ellipsis = true %}
       {% endif %}
     {% endfor %}
 
     {% if pagination.href.next %}
-      <li><a href="{{ pagination.href.next }}" class="btn">Next</a></li>
+      <li><a href="{{ pagination.href.next }}" class="btn">Next →</a></li>
     {% endif %}
   </ul>
-</div>
+</nav>
 {% endif %}

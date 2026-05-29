@@ -102,6 +102,78 @@ export default function(eleventyConfig) {
       .replace(/%e/g, String(d.getUTCDate()).padStart(2, " "));
   });
 
+  // Returns { newer, older } posts for the "Read More" section on post pages.
+  //
+  // collections.posts is sorted newest-first, so lower index = more recent.
+  //
+  // NEWER SLOT (a post published after the current one):
+  //   1. Nearest newer post sharing at least one tag with the current post.
+  //   2. If none found and this is NOT the most recent post overall: most recent post overall.
+  //   3. If none found and this IS the most recent post: second most recent post overall.
+  //   4. If the current post has no tags: adjacent newer post by date.
+  //
+  // OLDER SLOT (a post published before the current one):
+  //   1. Nearest older post sharing at least one tag with the current post.
+  //   2. If none found: next older post by date.
+  //   3. If the current post has no tags: adjacent older post by date.
+  //
+  // DUPLICATE PREVENTION:
+  //   The newer slot is resolved first. When resolving the older slot, any post
+  //   already chosen for the newer slot is skipped so both slots show distinct posts.
+  eleventyConfig.addFilter("getAdjacentPosts", (posts, url) => {
+    const idx = posts.findIndex(p => p.url === url);
+    if (idx === -1) return { newer: null, older: null };
+
+    const current = posts[idx];
+
+    const getTags = post => {
+      const t = post.data.tags;
+      if (!t) return [];
+      return Array.isArray(t) ? t : [t];
+    };
+
+    const currentTags = new Set(getTags(current));
+    const currentHasTags = currentTags.size > 0;
+
+    const sharesTag = post => getTags(post).some(t => currentTags.has(t));
+
+    // --- NEWER SLOT ---
+    let newer = null;
+    if (!currentHasTags) {
+      newer = idx > 0 ? posts[idx - 1] : null;
+    } else {
+      for (let i = idx - 1; i >= 0; i--) {
+        if (sharesTag(posts[i])) { newer = posts[i]; break; }
+      }
+      if (!newer) {
+        newer = idx === 0
+          ? (posts.length > 1 ? posts[1] : null)  // already most recent: show 2nd most recent
+          : posts[0];                               // not most recent: show most recent overall
+      }
+    }
+
+    // --- OLDER SLOT (skip whatever newer resolved to) ---
+    const excludeUrl = newer ? newer.url : null;
+
+    let older = null;
+    if (!currentHasTags) {
+      for (let i = idx + 1; i < posts.length; i++) {
+        if (posts[i].url !== excludeUrl) { older = posts[i]; break; }
+      }
+    } else {
+      for (let i = idx + 1; i < posts.length; i++) {
+        if (posts[i].url !== excludeUrl && sharesTag(posts[i])) { older = posts[i]; break; }
+      }
+      if (!older) {
+        for (let i = idx + 1; i < posts.length; i++) {
+          if (posts[i].url !== excludeUrl) { older = posts[i]; break; }
+        }
+      }
+    }
+
+    return { newer, older };
+  });
+
   eleventyConfig.addFilter("absolutifyUrls", (content, base) => {
     if (!content) return content;
     return content

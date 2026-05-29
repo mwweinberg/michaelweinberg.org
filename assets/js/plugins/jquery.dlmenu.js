@@ -15,7 +15,7 @@
 	'use strict';
 
 	// global
-	var Modernizr = window.Modernizr, $body = $( 'body' );
+	var $body = $( 'body' );
 
 	$.DLMenu = function( options, element ) {
 		this.$el = $( element );
@@ -42,26 +42,11 @@
 			// cache some elements and initialize some variables
 			this._config();
 			
-			var animEndEventNames = {
-					'WebkitAnimation' : 'webkitAnimationEnd',
-					'OAnimation' : 'oAnimationEnd',
-					'msAnimation' : 'MSAnimationEnd',
-					'animation' : 'animationend'
-				},
-				transEndEventNames = {
-					'WebkitTransition' : 'webkitTransitionEnd',
-					'MozTransition' : 'transitionend',
-					'OTransition' : 'oTransitionEnd',
-					'msTransition' : 'MSTransitionEnd',
-					'transition' : 'transitionend'
-				};
-			// animation end event name
-			this.animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ] + '.dlmenu';
-			// transition end event name
-			this.transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ] + '.dlmenu',
-			// support for css animations and css transitions
-			this.supportAnimations = Modernizr.cssanimations,
-			this.supportTransitions = Modernizr.csstransitions;
+			// animation and transition end event names (all modern browsers use unprefixed)
+			this.animEndEventName = 'animationend.dlmenu';
+			this.transEndEventName = 'transitionend.dlmenu';
+			this.supportAnimations = true;
+			this.supportTransitions = true;
 
 			this._initEvents();
 

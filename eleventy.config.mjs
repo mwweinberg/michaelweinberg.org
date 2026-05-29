@@ -20,13 +20,9 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.png");
   eleventyConfig.addPassthroughCopy("CNAME");
 
-  // Don't process these as templates (passthrough handles wod.html; others are not content)
-  eleventyConfig.ignores.add("_reference");
-  eleventyConfig.ignores.add("theme-setup");
-  eleventyConfig.ignores.add("Gruntfile.js");
+  // Don't process these as templates (passthrough handles wod.html; README is not content)
   eleventyConfig.ignores.add("README.md");
   eleventyConfig.ignores.add("wod.html");
-  eleventyConfig.ignores.add("notes.txt");
 
   // Posts collection sorted newest-first — explicit .md filter excludes tumblr .html imports
   eleventyConfig.addCollection("posts", function(collectionApi) {

@@ -4,9 +4,7 @@ title: About
 image:
   feature: xjbanner.jpg
 
-comments: false
 modified: 2026-05-29
-share: false
 ---
 
 Hi.  I'm Michael.  I am the Executive Director of the [Engelberg Center on Innovation Law and Policy at NYU Law](http://www.law.nyu.edu/centers/engelberg). I'm also a board member of the [Open Source Hardware Association](https://www.oshwa.org/) (where I run the [Open Hardware Certification Program](https://certification.oshwa.org/)), Co-Director of the [GLAM-E Lab](https://www.glamelab.org/), and a co-creator of [Everybody is Gone](https://www.everybodyisgone.org/).  I split time between Berlin and NYC. 

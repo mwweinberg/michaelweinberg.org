@@ -16,6 +16,6 @@ I used to do 3D printing and legal things at [Shapeways](https://www.shapeways.c
 You can email me at <hello@michaelweinberg.org> and find me on bluesky [@michaelweinberg.org](https://bsky.app/profile/michaelweinberg.org). I used to be on twitter @MWeinberg2D and mastodon [@mweinberg](https://mastodon.social/@mweinberg).  Email is probably the best way to start a conversation.  I also have a collection of poorly written software-type-things on github as [MWWeinberg](https://github.com/mwweinberg).  
 
 
-This site is running on 11ty using a github->cloudlflare pages pipeline. From 2018-2026 it ran on Jekyll and was hosted on Github.  Before that it ran on tumblr. 
+This site is running on 11ty using a github->cloudlflare pages pipeline. From 2018-2026 it ran on Jekyll and was hosted on Github.  Before that it ran on tumblr. It uses the the openly licensed [Cooper Hewitt typeface designed by Chester Jenkins](https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/).
 
 The header image on the home page is a lithograph of [Billy Sunday by George Wesley Bellows](https://www.si.edu/object/billy-sunday:npg_NPG.74.69) from the Smithsonian's open access collection.

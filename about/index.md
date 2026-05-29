@@ -5,7 +5,7 @@ image:
   feature: xjbanner.jpg
 
 comments: false
-modified: 2025-06-20
+modified: 2026-05-29
 share: false
 ---
 
@@ -15,8 +15,7 @@ I used to do 3D printing and legal things at [Shapeways](https://www.shapeways.c
 
 You can email me at <hello@michaelweinberg.org> and find me on bluesky [@michaelweinberg.org](https://bsky.app/profile/michaelweinberg.org). I used to be on twitter @MWeinberg2D and mastodon [@mweinberg](https://mastodon.social/@mweinberg).  Email is probably the best way to start a conversation.  I also have a collection of poorly written software-type-things on github as [MWWeinberg](https://github.com/mwweinberg).  
 
-If you are curious, you too can have email address on your own domain thanks to [this fantastic and detailed guide](https://konklone.com/post/take-control-of-your-email-address) from [Eric Mill](https://konklone.com/).
 
-This site is running on Jekyll and hosted on Github.  It used to run on tumblr.  Maybe someday it will again, although it is looking increasingly unlikely.
+This site is running on 11ty using a github->cloudlflare pages pipeline. From 2018-2026 it ran on Jekyll and was hosted on Github.  Before that it ran on tumblr. 
 
 The header image on the home page is a lithograph of [Billy Sunday by George Wesley Bellows](https://www.si.edu/object/billy-sunday:npg_NPG.74.69) from the Smithsonian's open access collection.

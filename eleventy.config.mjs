@@ -42,11 +42,8 @@ export default function(eleventyConfig) {
     return `${RFC822_DAYS[d.getUTCDay()]}, ${String(d.getUTCDate()).padStart(2,"0")} ${RFC822_MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()} 00:00:00 +0000`;
   });
 
-  // Jekyll-compatible date filters
+  // Jekyll-compatible date filter
   eleventyConfig.addFilter("date_to_xmlschema", (date) => new Date(date).toISOString());
-  eleventyConfig.addFilter("date_to_string", (date) =>
-    new Date(date).toLocaleDateString("en-US", { day: "2-digit", month: "short", year: "numeric" })
-  );
 
   // Jekyll filter that liquidjs doesn't have natively
   eleventyConfig.addFilter("number_of_words", (content) =>
@@ -80,8 +77,6 @@ export default function(eleventyConfig) {
     const para = content.match(/<p>[\s\S]*?<\/p>/);
     return para ? para[0] : content.substring(0, 250) + "…";
   });
-
-  eleventyConfig.addFilter("strip_slash", (str) => (str ? str.replace(/\/$/, "") : str));
 
   // Override liquidjs built-in date filter to format dates in UTC, matching Jekyll's behavior
   // with frontmatter dates that are YYYY-MM-DD (parsed as UTC midnight)

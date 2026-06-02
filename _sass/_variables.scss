@@ -15,7 +15,6 @@ $front-page-feature-image-height : 400px; // min 150px recommended
 
 $base-font                       : 'Cooper Hewitt', system-ui, sans-serif;
 $heading-font                    : $base-font;
-$caption-font                    : $base-font;
 $code-font                       : monospace;
 $alt-font                        : serif;
 
@@ -51,6 +50,5 @@ $info                            : #308cbc;
    Screen sizes
    ========================================================================== */
 
-$small                           : "only screen and (min-width: 30em)";
 $medium                          : "only screen and (min-width: 48em)";
 $large                           : "only screen and (min-width: 62.5em)";

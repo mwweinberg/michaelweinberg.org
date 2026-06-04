@@ -12,7 +12,7 @@
   {% if image.credit %}<div class="image-credit">Image source: <a href="{{ image.creditlink }}">{{ image.credit }}</a></div><!-- /.image-credit -->{% endif %}
   {% if image.feature %}
     <div class="entry-image">
-      <img src="/images/{{ image.feature }}" alt="{{ image.alt | default: '' }}">
+      <img src="/images/{{ image.feature }}" alt="{{ image.alt | default: '' }}"{% if image.focus %} style="object-position: {{ image.focus }}"{% endif %}>
     </div><!-- /.entry-image -->
   {% endif %}
   <div class="header-title">

@@ -103,11 +103,17 @@ body {
 	overflow: hidden;
 
 	.header-title-wrap {
-		text-align: center;
+		width: 100%;
+		text-align: right;
+		padding: 0 20px;
+
+		@media #{$medium} {
+			padding: 0 45px;
+		}
 	}
 
 	h1 {
-		margin: 10px 60px;
+		margin: 10px 0;
 		font-weight: 700;
 		color: #fff;
 		text-shadow: 1px 1px 4px rgba($base-color,0.6);
@@ -175,20 +181,24 @@ body {
 #post-index {
 
 	.entry-image {
-		min-height: $front-page-feature-image-height;
+		height: $front-page-feature-image-height;
 
 		img {
 			width: 100%;
-			height: auto;
-			min-height: $front-page-feature-image-height;
+			height: 100%;
+			object-fit: cover;
+			object-position: center center;
 			max-width: 100%;
+
+			@media #{$medium} {
+				object-position: center center !important;
+			}
 		}
 	}
 
 	.site-title,
 	.site-subtitle {
 		text-align: right;
-		margin-right: 45px;
 	}
 
 	.site-subtitle {

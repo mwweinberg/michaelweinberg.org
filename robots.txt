@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://michaelweinberg.org/sitemap.xml

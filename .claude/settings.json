@@ -4,7 +4,9 @@
       "Bash(npm install *)",
       "Bash(npm run *)",
       "Bash(grep -v \"^$\")",
-      "Bash(node -e \"const p = require\\('@11ty/eleventy-plugin-rss'\\); console.log\\('main type:', typeof p\\); console.log\\('feedPlugin type:', typeof p.feedPlugin\\); console.log\\('feedPlugin toString:', p.feedPlugin?.toString\\(\\).substring\\(0, 200\\)\\)\")"
+      "Bash(node -e \"const p = require\\('@11ty/eleventy-plugin-rss'\\); console.log\\('main type:', typeof p\\); console.log\\('feedPlugin type:', typeof p.feedPlugin\\); console.log\\('feedPlugin toString:', p.feedPlugin?.toString\\(\\).substring\\(0, 200\\)\\)\")",
+      "WebFetch(domain:michaelweinberg.org)",
+      "WebFetch(domain:michaelweinberg-org.pages.dev)"
     ]
   }
 }

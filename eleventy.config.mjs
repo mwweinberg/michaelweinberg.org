@@ -16,6 +16,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("smk_style");
   eleventyConfig.addPassthroughCopy("other_pages");
   eleventyConfig.addPassthroughCopy("wod.html");
+  eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("favicon.png");
   eleventyConfig.addPassthroughCopy("CNAME");

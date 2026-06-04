@@ -15,4 +15,7 @@ eleventyExcludeFromCollections: true
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
   </url>
   {% endfor %}
+  {% for filename in docs %}
+  <url><loc>{{ site.url }}/docs/{{ filename }}</loc></url>
+  {% endfor %}
 </urlset>

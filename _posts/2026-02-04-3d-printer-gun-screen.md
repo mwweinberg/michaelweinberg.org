@@ -5,6 +5,7 @@ title: 3D Printers Cannot Effectively Screen for Gun Parts
 date: 2026-02-04
 tags:
 - 3dprinting
+- gun
 image:
      feature: fancy_gun.jpg
 

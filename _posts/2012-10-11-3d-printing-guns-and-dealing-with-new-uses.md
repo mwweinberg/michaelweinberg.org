@@ -4,6 +4,7 @@ title: 3D Printing, Guns, and Dealing with New Uses
 date: '2012-10-11T00:00:00-04:00'
 tags:
 - pk
+- gun
 tumblr_permalink: post/107999327580/3d-printing-guns-and-dealing-with-new-uses
 ---
 <p>Having made it into the<span class="Apple-converted-space"> </span><a href="http://bits.blogs.nytimes.com/2012/10/07/with-a-3-d-printer-building-a-gun-at-home/" target="_blank">New York Times</a>, it looks like it is time to talk about 3D printing and firearms.  The tl;dr version of this post is: this is an interesting development that is not really new but does provide a useful framework to start thinking about the larger policy issues around 3D printers.</p>

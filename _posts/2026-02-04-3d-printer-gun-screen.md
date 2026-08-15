@@ -17,7 +17,9 @@ This post is not about debating the larger legitimacy of gun control.  It assume
 
 Broadly speaking, it is responding to requirements that all 3D printers check prints to make sure that they are not gun parts. If the part is a gun part, the printer would refuse to print it. 
 
-The short version is that accurately identifying gun parts is incredibly hard, and the hackable nature of desktop 3D printers makes it trivial to circumvent any requirements to try.  
+The post is not responding to voluntary efforts by an owner of a 3D printer to limit that printer's ability to print a firearm part. That model is different in a number of ways.
+
+The short version of why mandating 3D printed firearm part detection is unlikely to be effective is that accurately identifying gun parts is incredibly hard, and the hackable nature of desktop 3D printers makes it trivial to circumvent any requirements to try.  
 
 Here's the slightly longer version:
 
@@ -55,7 +57,11 @@ As a result, there is no way to mandate that a technology that starts in a 3D pr
 
 This places 3D printers at the opposite end of the spectrum from 2D printers.  Anti-counterfeit systems prevent 2D printers from printing currency.  To the extent that these rules are effective (and I’m no expert, but they are often cited in these discussions as successful models), it is because the 2D printing industry is fairly concentrated and proprietary.  2D printer companies are actively hostile to users who want to modify their products, significantly raising the barrier to hacking around any countermeasures.  
 
-Desktop 3D printers are the opposite. They all trace their heritage back to open source printers, and users expect to be able to modify, extend, and hack their printers.  That means that workarounds for a screening mandate would be easy to develop, distribute, and implement. Many open source software packages might even include the circumvention by default, meaning users would implement it without even actively intending to do so. 
+Furthermore, with the exception of the actual counterfeiter, everyone involved in the 2D toolchain is collaborating to stop counterfeiting.  Governments who create the designs want counterfeits to be detectable, printer manufacturers want to avoid printing counterfeits, and recipients of the counterfeit bills want to be able to detect them.
+
+Desktop 3D printers are the opposite. They all trace their heritage back to open source printers.  Users expect to be able to modify, extend, and hack their printers.  That means that workarounds for a screening mandate would be easy to develop, distribute, and implement. Many open source software packages might even include the circumvention by default, meaning users would implement it without even actively intending to do so. 
+
+The 3D toolchain is also indifferent or hostile to stopping 3D printed gun parts.  Designers of 3D printed gun parts do not want them to be detected and blocked.  The 3D printing community is skeptical of interventions that block the printing of certain geometries.  And the users of 3D printed guns have no objection to the fact that the parts are 3D printed.
 
 ## 3D Printers are General Purpose Machines
 
@@ -65,6 +71,6 @@ This post is focused on the technical challenges with requiring 3D printers to s
 
 That type of invasion might be reasonable if it was effective. However, for the reasons listed in that post, it is unlikely to prevent even a modestly motivated person from using their printer to create gun parts.  If an intervention is both highly invasive and unlikely to be effective, it is probably not an ideal policy. 
 
-
+_This post was updated on August 15, 2026, primarily to expand the comparison between the incentives of participants in the 2D and 3D production toolchain._
 
 _Feature image: [Designs for Gun Parts and Ornament](https://www.si.edu/object/designs-gun-parts-and-ornament:chndm_1921-6-408-20) from the Smithsonian Open Access collection. It's not always easy to tell which elements of a gun are functional and which are decorative!_

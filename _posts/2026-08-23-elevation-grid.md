@@ -22,5 +22,9 @@ However, connecting it to a local network gives you the ability to access the we
 
 ![screenshot of website showing the elevation as displayed on the grid and an image of the earth with a box indicating that location](/images/website_preview.png)
 
+This project had been sitting on my todo pile for years.  The primary blocker was that I was trying to set up an API for the elevation on the pi, which would then be accessed by a python script. The problem was that the package I was trying to use did not have an image compatible with the pi.
+
+In the end it turned out not to matter. Instead of using an architecture where the script reads the data via an API, this version just reads the data directly.  
+
 The full repo is available here: [https://github.com/mwweinberg/elevation_grid](https://github.com/mwweinberg/elevation_grid).
 

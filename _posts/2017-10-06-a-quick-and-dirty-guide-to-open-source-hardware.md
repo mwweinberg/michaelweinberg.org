@@ -3,7 +3,7 @@ layout: post
 title: A Quick and Dirty Guide to Open Source Hardware Licensing*
 date: '2017-10-06T20:10:45-04:00'
 tags:
-- OSHW
+- opensourcehardware
 - oshwa
 tumblr_permalink: post/166125363755/a-quick-and-dirty-guide-to-open-source-hardware
 ---

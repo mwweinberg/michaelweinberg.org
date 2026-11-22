@@ -4,7 +4,7 @@ title: Unlocking 3D Printers Ruling is a Mess
 date: '2015-10-27T11:39:15-04:00'
 tags:
 - 3dprinting
-- '1201'
+- 1201
 tumblr_permalink: post/132021560865/unlocking-3d-printers-ruling-is-a-mess
 ---
 <p><i>Just a note that this

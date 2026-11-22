@@ -5,7 +5,7 @@ title: New Met Partnership Shows Open Access Can Coexist With Revenue?
 date: 2020-09-03
 tags:
 - public domain
-- GLAM
+- glam
 image:
     feature: goldsmith_shop.jpg
 

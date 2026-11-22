@@ -6,7 +6,7 @@ date: 2020-01-01
 tags:
 - projects
 - public domain
-- GLAM
+- glam
 image:
     feature: biglin_brothers.jpg
 

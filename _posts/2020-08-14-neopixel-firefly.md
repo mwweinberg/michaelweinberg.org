@@ -5,7 +5,7 @@ title: Simulating Firefly Flashes with CircuitPython and Neopixels
 date: 2020-08-14
 tags:
 - projects
-- OSHW
+- opensourcehardware
 - circuitpython
 image:
      feature: firefly.jpg

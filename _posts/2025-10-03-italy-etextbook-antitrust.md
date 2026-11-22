@@ -6,7 +6,7 @@ date: 2025-10-03
 tags:
 - openaccess
 - copyright
-- 'first sale'
+- first sale
 image:
      feature: y_and_z.png
 

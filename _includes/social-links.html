@@ -1,0 +1,9 @@
+{%- comment %} Michael's links elsewhere (from _data/site.json). Used on the About page. {% endcomment -%}
+<ul class="social-links">
+  {% if site.owner.bluesky %}<li><a href="https://bsky.app/profile/{{ site.owner.bluesky }}"><i class="fa-brands fa-fw fa-bluesky" aria-hidden="true"></i> Bluesky</a></li>{% endif %}
+  {% if site.owner.mastodon %}<li><a href="https://mastodon.social/@{{ site.owner.mastodon }}"><i class="fa-brands fa-fw fa-mastodon" aria-hidden="true"></i> Mastodon</a></li>{% endif %}
+  {% if site.owner.linkedin %}<li><a href="https://linkedin.com/in/{{ site.owner.linkedin }}"><i class="fa-brands fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>{% endif %}
+  {% if site.owner.github %}<li><a href="https://github.com/{{ site.owner.github }}"><i class="fa-brands fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>{% endif %}
+  {% if site.owner.email %}<li><a href="mailto:{{ site.owner.email }}"><i class="fa-solid fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>{% endif %}
+  <li><a href="/feed.xml"><i class="fa-solid fa-fw fa-rss" aria-hidden="true"></i> RSS</a></li>
+</ul>

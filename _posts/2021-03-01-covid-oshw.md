@@ -5,7 +5,7 @@ title: Announcing "Stitching Together a Solution - Lessons from the Open Source 
 date: 2021-03-01
 tags:
 - opensourcehardware
-- NYU
+- nyu
 - whitepapers
 image:
      feature: COVID-OSHW-Cover-halfsize.jpg

@@ -5,7 +5,7 @@ title: Pioneers of Open Access Report
 date: 2023-01-27
 tags:
 - openaccess
-- NYU
+- nyu
 - whitepapers
 image:
      feature: Pioneers-of-Open-Cover.png

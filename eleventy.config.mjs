@@ -58,7 +58,16 @@ export default function(eleventyConfig) {
       const t = post.data.tags;
       if (t) (Array.isArray(t) ? t : [t]).forEach(tag => tags.add(tag));
     });
-    return [...tags].sort();
+    return [...tags].sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" })); // A–Z, ignoring capitals
+  });
+
+  // Picture for a project card: the post’s main picture, otherwise the first picture in its text,
+  // otherwise nothing (the card then shows its title on a plain block).
+  eleventyConfig.addFilter("cardImage", (post) => {
+    const f = post.data.image && post.data.image.feature;
+    if (f) return "/images/" + f;
+    const m = (post.templateContent || "").match(/<img[^>]*\ssrc="([^"]+)"/);
+    return m ? m[1] : "";
   });
 
   // Returns posts that include the given tag
@@ -88,6 +97,7 @@ export default function(eleventyConfig) {
     const d = new Date(date);
     return (format || "")
       .replace(/%B/g, UTC_MONTHS[d.getUTCMonth()])
+      .replace(/%b/g, UTC_MONTHS[d.getUTCMonth()].slice(0, 3)) // short month, e.g. "Oct"
       .replace(/%d/g, String(d.getUTCDate()).padStart(2, "0"))
       .replace(/%m/g, String(d.getUTCMonth() + 1).padStart(2, "0"))
       .replace(/%Y/g, d.getUTCFullYear())

@@ -3,7 +3,7 @@ layout: post
 title: Shapeways Supports EU Net Neutrality
 date: '2016-07-25T16:59:01-04:00'
 tags:
-- Shapeways
+- shapeways
 - net neutrality
 tumblr_permalink: post/147962265810/shapeways-supports-eu-net-neutrality
 ---

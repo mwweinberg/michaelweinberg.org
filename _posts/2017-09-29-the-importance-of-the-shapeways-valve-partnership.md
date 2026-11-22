@@ -5,7 +5,7 @@ date: '2017-09-29T11:54:42-04:00'
 tags:
 - 3dprinting
 - copyright
-- Shapeways
+- shapeways
 tumblr_permalink: post/165867313430/the-importance-of-the-shapeways-valve-partnership
 ---
 <p>Four and a half years ago, in the wake of HBO’s decision to

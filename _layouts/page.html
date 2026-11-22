@@ -4,47 +4,38 @@
 {% include "head.html" %}
 </head>
 
-<body id="page" {% if image.feature %}class="feature"{% endif %}>
-
+<body id="page" class="layout-page{% if image.feature %} feature{% endif %}">
+{% assign hero = false %}
 {% include "navigation.html" %}
 
-{% if image.feature %}
-<div class="entry-header">
-  {% if image.credit %}<div class="image-credit">Image source: <a href="{{ image.creditlink }}">{{ image.credit }}</a></div><!-- /.image-credit -->{% endif %}
-  <div class="entry-image">
-    <img src="/images/{{ image.feature }}" alt="{{ image.alt | default: '' }}" loading="lazy">
-  </div><!-- /.entry-image -->
-</div><!-- /.entry-header -->
-{% endif %}
-
-<div id="main" role="main">
-  <article class="hentry">
-    <header class="header-title">
-      <div class="header-title-wrap">
-        <h1 class="entry-title">{{ title }}</h1>
-        {% if site.reading_time %}
-        <p class="entry-reading-time">
-          <i class="fa-solid fa-clock"></i>
-          {% include "read-time.html" %}
-        </p><!-- /.entry-reading-time -->
-        {% endif %}
-      </div><!-- /.header-title-wrap -->
+<main id="main" class="main">
+  <article class="post">
+    <header class="post__header">
+      <h1 class="post__title">{{ title }}</h1>
     </header>
+
+    {% if image.feature %}
+    <figure class="post__image">
+      <img src="/images/{{ image.feature }}" alt="{{ image.alt | default: '' }}">
+      {% if image.credit %}<figcaption>Image source: <a href="{{ image.creditlink }}">{{ image.credit }}</a></figcaption>{% endif %}
+    </figure>
+    {% endif %}
+
     <div class="entry-content">
       {{ content }}
-      <footer class="entry-meta">
-        {% if modified %}<span>Updated on <span class="entry-date date published updated"><time datetime="{{ modified }}">{{ modified | date: "%B %d, %Y" }}</time></span></span>
-        <span class="author vcard"><span class="fn">{{ site.owner.name }}</span></span>{% endif %}
-      </footer>
-    </div><!-- /.entry-content -->
-  </article>
-</div><!-- /#main -->
+    </div>
 
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    {% include "footer.html" %}
-  </footer>
-</div><!-- /.footer-wrapper -->
+    {% if modified %}
+    <footer class="post__footer">
+      <p class="post-meta">Updated on <time datetime="{{ modified }}">{{ modified | date: "%B %d, %Y" }}</time></p>
+    </footer>
+    {% endif %}
+  </article>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  {% include "footer.html" %}
+</footer>
 
 {% include "scripts.html" %}
 

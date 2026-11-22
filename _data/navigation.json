@@ -1,4 +1,10 @@
 [
-  { "title": "Projects", "url": "/tags/#projects" },
-  { "title": "RSS", "url": "/feed.xml" }
+  {
+    "title": "Projects",
+    "url": "/projects/"
+  },
+  {
+    "title": "RSS",
+    "url": "/feed.xml"
+  }
 ]

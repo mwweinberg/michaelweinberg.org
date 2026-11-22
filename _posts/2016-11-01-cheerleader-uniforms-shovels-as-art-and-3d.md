@@ -3,7 +3,7 @@ layout: post
 title: Cheerleader Uniforms, Shovels as Art, and 3D Printing Copyright
 date: '2016-11-01T18:36:37-04:00'
 tags:
-- Shapeways
+- shapeways
 - copyright
 - 3dprinting
 tumblr_permalink: post/152614822690/cheerleader-uniforms-shovels-as-art-and-3d

@@ -3,7 +3,7 @@ layout: post
 title: Hello Shapeways!
 date: '2015-04-02T00:00:00-04:00'
 tags:
-- Shapeways
+- shapeways
 tumblr_permalink: post/115589585055/hello-shapeways
 ---
 Hi Shapeways!  I’m excited to be joining the team as the new IP and General Counsel around here.  3D printing is obviously amazing for all

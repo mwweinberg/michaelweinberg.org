@@ -17,3 +17,5 @@ You can email me at <hello@michaelweinberg.org> and find me on bluesky [@michael
 This site is running on 11ty using a github->cloudlflare pages pipeline. From 2018-2026 it ran on Jekyll and was hosted on Github.  Before that it ran on tumblr. It uses the the openly licensed [Cooper Hewitt typeface designed by Chester Jenkins](https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/).
 
 The header image on the home page is a lithograph of [Billy Sunday by George Wesley Bellows](https://www.si.edu/object/billy-sunday:npg_NPG.74.69) from the Smithsonian's open access collection.
+
+{% include "social-links.html" %}

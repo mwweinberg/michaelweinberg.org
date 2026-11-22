@@ -7,7 +7,7 @@ tags:
 - ai
 - copyright
 - openaccess
-- NYU
+- nyu
 - glam-e
 - whitepapers
 image:

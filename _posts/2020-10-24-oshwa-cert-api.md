@@ -5,7 +5,7 @@ title: Announcing the Open Source Hardware Certification API
 date: 2020-10-24 01:01:01
 tags:
 - opensourcehardware
-- OSHWA
+- oshwa
 image:
      feature:
 

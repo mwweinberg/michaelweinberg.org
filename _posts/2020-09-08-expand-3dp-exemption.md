@@ -6,7 +6,7 @@ date: 2020-09-08
 tags:
 - copyright
 - 3dprinting
-- '1201'
+- 1201
 - dmca
 image:
     feature: jefferson_building.jpg

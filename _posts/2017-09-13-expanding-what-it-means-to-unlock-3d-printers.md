@@ -3,7 +3,7 @@ layout: post
 title: Expanding What it Means to Unlock 3D Printers
 date: '2017-09-13T20:42:41-04:00'
 tags:
-- '1201'
+- 1201
 - 3dprinting
 - copyright
 tumblr_permalink: post/165312955715/expanding-what-it-means-to-unlock-3d-printers

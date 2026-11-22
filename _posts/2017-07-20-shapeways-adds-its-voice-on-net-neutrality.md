@@ -3,7 +3,7 @@ layout: post
 title: Shapeways Adds its Voice on Net Neutrality
 date: '2017-07-20T20:34:34-04:00'
 tags:
-- Shapeways
+- shapeways
 - net neutrality
 tumblr_permalink: post/163232067240/shapeways-adds-its-voice-on-net-neutrality
 ---

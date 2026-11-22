@@ -5,14 +5,14 @@ title: Creating a Live OSHWA Certification Map
 date: 2020-11-10
 tags:
 - projects
-- OSHW
+- opensourcehardware
 image:
      feature: oshwa_api_map.png
 
 ---
 **Update 2/11/24:** *The original version of this map didn't fully work because the OSHWA api paginates the results it provides. The original version did not take that into account, so only displayed the first 100 certifications.  The newly updated version downloads all of the entries before creating the map, so it is actually complete. It also includes a count of the total entries and number of countries with certifications in the header. The new code still more or less works the same way, although there is now an initial step to loop through the api until everything is downloaded.  You can find the updated version in the repo referenced below.  Also, the API key expires every 100 days, so if you are reading this more than 100 days from 2/11/24 and the map is not loading, that may be the problem. There are instructions for getting your own API key in the repo.*
 
-With the [recent release](/blog/2020/10/23/oshwa-cert-api/) of the live [OSHWA Open Source Hardware Certification API](https://certificationapi.oshwa.org/documentation), I wanted to build a map that tracked the live distribution of certified open source hardware across the globe.  You can see the map [here](/oshwa_certification_map/).  You can see the code [here](https://github.com/mwweinberg/oshwa_cert_map). This post explains how it all works.  
+With the [recent release](/blog/2020/10/24/oshwa-cert-api/) of the live [OSHWA Open Source Hardware Certification API](https://certificationapi.oshwa.org/documentation), I wanted to build a map that tracked the live distribution of certified open source hardware across the globe.  You can see the map [here](/oshwa_certification_map/).  You can see the code [here](https://github.com/mwweinberg/oshwa_cert_map). This post explains how it all works.  
 
 The map I made is called a [choropleth](https://en.wikipedia.org/wiki/Choropleth_map).  It uses color intensity to compare the number of pieces of certified hardware between countries.  I created it using [leaflet.js](https://leafletjs.com/). I chose leaflet mostly because I learned how to use it on a [Coding Train tutorial](https://www.youtube.com/watch?v=nZaZ2dB6pow).  That tutorial also taught me how to access APIs, which is another piece of this project.
 

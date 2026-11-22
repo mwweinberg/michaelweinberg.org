@@ -4,9 +4,9 @@ category: blog
 title: Deadline Extended for SMK Jewelry Contest
 date: 2017-06-14
 tags:
-- Shapeways
+- shapeways
 - public domain
-- GLAM
+- glam
 image:
      feature:
 

@@ -6,8 +6,8 @@ date: 2020-05-21 11:02:00
 tags:
 - openaccess
 - copyright
-- GLAM
-- NYU
+- glam
+- nyu
 - whitepapers
 image:
      feature: glam3d_header.jpg

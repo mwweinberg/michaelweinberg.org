@@ -5,7 +5,7 @@ title: HardwareX Integrates OSHWA Certification into Paper Submission Process
 date: 2021-06-02
 tags:
 - opensourcehardware
-- OSHWA
+- oshwa
 image:
      feature: hardwareX_oshwa.jpg
 

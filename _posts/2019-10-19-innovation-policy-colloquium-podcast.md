@@ -4,7 +4,7 @@ category: blog
 title: Announcing the Innovation Policy Colloquium Podcast
 date: 2019-10-19
 tags:
-- NYU
+- nyu
 image:
      feature:
 

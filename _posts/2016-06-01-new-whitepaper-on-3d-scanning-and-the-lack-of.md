@@ -3,7 +3,7 @@ layout: post
 title: New Whitepaper on 3D Scanning and (the Lack of) Copyright
 date: '2016-06-01T05:15:26-04:00'
 tags:
-- Shapeways
+- shapeways
 - 3dscanning
 - whitepapers
 tumblr_permalink: post/145249263845/new-whitepaper-on-3d-scanning-and-the-lack-of

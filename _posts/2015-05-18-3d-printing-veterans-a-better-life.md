@@ -4,7 +4,7 @@ title: 3D Printing + Veterans = A Better Life
 date: '2015-05-18T17:47:13-04:00'
 tags:
 - 3dprinting
-- Shapeways
+- shapeways
 tumblr_permalink: post/119307931270/3d-printing-veterans-a-better-life
 ---
 <p>Today the Department of Veterans Affairs (VA) is launching a<a href="http://www.innovation.va.gov/challenge/" target="_blank"> challenge initiative</a>

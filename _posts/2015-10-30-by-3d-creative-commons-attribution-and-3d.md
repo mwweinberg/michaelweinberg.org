@@ -3,7 +3,7 @@ layout: post
 title: BY-3D? Creative Commons Attribution and 3D Printing
 date: '2015-10-30T14:46:15-04:00'
 tags:
-- Shapeways
+- shapeways
 - 3dprinting
 - creative commons
 - licensing

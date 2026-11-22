@@ -6,7 +6,7 @@ date: 2018-12-11
 tags:
 - copyright
 - 3dscanning
-- GLAM
+- glam
 image:
      feature: trajanscolumn.jpg
 

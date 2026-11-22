@@ -3,7 +3,7 @@ layout: post
 title: Trademark and Copyright Safe Harbors (again)
 date: '2017-03-06T20:49:35-05:00'
 tags:
-- Shapeways
+- shapeways
 - copyright
 - trademark
 tumblr_permalink: post/158089906265/trademark-and-copyright-safe-harbors-again

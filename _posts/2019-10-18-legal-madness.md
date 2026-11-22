@@ -4,7 +4,7 @@ category: blog
 title: The Greatest Simulated Legal Open Mic Night of the Season - Guaranteed
 date: 2019-10-18
 tags:
-- NYU
+- nyu
 image:
      feature: legalmadnessgraphic.png
 

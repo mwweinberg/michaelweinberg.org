@@ -4,9 +4,9 @@ category: blog
 title: Display Your Jewelry in the Danish National Gallery
 date: 2017-05-25
 tags:
-- Shapeways
+- shapeways
 - public domain
-- GLAM
+- glam
 image:
      feature:
 

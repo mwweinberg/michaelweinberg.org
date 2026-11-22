@@ -4,7 +4,7 @@ category: blog
 title: How Explaining Copyright Broke the YouTube Copyright System
 date: 2020-02-15
 tags:
-- NYU
+- nyu
 - copyright
 - dmca
 image:

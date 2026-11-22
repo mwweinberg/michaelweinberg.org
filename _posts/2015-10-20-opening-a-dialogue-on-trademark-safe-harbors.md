@@ -3,7 +3,7 @@ layout: post
 title: Opening a Dialogue on Trademark Safe Harbors
 date: '2015-10-20T18:51:28-04:00'
 tags:
-- Shapeways
+- shapeways
 - safe harbor
 - dmta
 tumblr_permalink: post/131582128575/opening-a-dialogue-on-trademark-safe-harbors

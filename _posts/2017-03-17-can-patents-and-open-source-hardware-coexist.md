@@ -3,7 +3,7 @@ layout: post
 title: Can Patents and Open Source Hardware Coexist?
 date: '2017-03-17T15:36:58-04:00'
 tags:
-- OSHW
+- opensourcehardware
 - patent
 tumblr_permalink: post/158520468410/can-patents-and-open-source-hardware-coexist
 ---

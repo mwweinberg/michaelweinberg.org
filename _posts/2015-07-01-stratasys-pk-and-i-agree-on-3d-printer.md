@@ -4,7 +4,7 @@ title: Stratasys, PK, and I Agree on 3D Printer Unlocking*
 date: '2015-07-01T13:06:34-04:00'
 tags:
 - 3dprinting
-- '1201'
+- 1201
 - drm
 tumblr_permalink: post/122954183315/stratasys-pk-and-i-agree-on-3d-printer
 ---

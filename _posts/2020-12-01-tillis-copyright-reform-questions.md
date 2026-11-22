@@ -7,7 +7,7 @@ tags:
 - copyright
 - 3dprinting
 - 1201
-- GLAM
+- glam
 image:
     feature: us_capitol.jpg
 ---

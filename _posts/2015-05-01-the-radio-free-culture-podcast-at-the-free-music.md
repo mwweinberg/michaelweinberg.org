@@ -6,4 +6,4 @@ tags:
 - 3dprinting
 tumblr_permalink: post/117892025385/the-radio-free-culture-podcast-at-the-free-music
 ---
-<img src="/tumblr_files/tumblr_nnp2apU7HJ1spt967o1_500.jpg"/><br/><p>The Radio Free Culture podcast at the Free Music Archive (which is at the Bergmayer-approved WFMU) let me come on to talk about 3D printing and IP this week.  They also gave me some soap.</p>
+<img src="/images/tumblr_nnp2apU7HJ1spt967o1_500.jpg" alt="Michael Weinberg laughing, holding a small figurine, captioned ‘Radio Free Culture’"/><br/><p>The Radio Free Culture podcast at the Free Music Archive (which is at the Bergmayer-approved WFMU) let me come on to talk about 3D printing and IP this week.  They also gave me some soap.</p>

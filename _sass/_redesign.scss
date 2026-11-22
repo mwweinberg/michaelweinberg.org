@@ -113,8 +113,10 @@ body.has-hero .main { padding-top: 4.5rem; } // more room between the hero and t
   background: linear-gradient(#cfc8bc, #cfc8bc) left center / calc(50% - 4rem) 1px no-repeat,
               linear-gradient(#cfc8bc, #cfc8bc) right center / calc(50% - 4rem) 1px no-repeat;
 }
-.post-summary__image { display: block; margin: 0 0 1rem; border-radius: 4px; overflow: hidden; background: darken($paper, 5%); }
-.post-summary__image img { display: block; width: 100%; aspect-ratio: 2 / 1; object-fit: cover; }
+// The whole picture at its own proportions (no cropping). Wide pictures fill the column; tall ones
+// (covers, portraits) are capped in height and centered, with the page showing on either side.
+.post-summary__image { display: block; margin: 0 0 1rem; }
+.post-summary__image img { display: block; width: auto; max-width: 100%; height: auto; max-height: 26rem; margin: 0 auto; border-radius: 4px; }
 .post-meta { margin: 0; font-size: 0.85rem; color: $ink-soft; letter-spacing: 0.02em; }
 .post-summary__title { margin: 0.2rem 0 0.6rem; font-size: 1.55rem; line-height: 1.25; }
 .post-summary__title a { color: $ink; text-decoration: none; }

@@ -3,7 +3,7 @@ layout: post
 title: Stratasys Opposes Unlocking 3D Printing Petition
 date: '2018-02-14T21:17:16-05:00'
 tags:
-- '1201'
+- 1201
 - 3dprinting
 - copyright
 tumblr_permalink: post/170890479630/stratasys-opposes-unlocking-3d-printing-petition

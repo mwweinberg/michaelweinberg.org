@@ -7,7 +7,7 @@ tags:
 - copyright
 - 3dprinting
 - policy
-- EU
+- eu
 image:
      feature:
 

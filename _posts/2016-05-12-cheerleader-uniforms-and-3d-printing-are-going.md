@@ -4,7 +4,7 @@ title: Cheerleader Uniforms (and 3D Printing) Are Going to the Supreme Court!
 date: '2016-05-12T13:28:11-04:00'
 tags:
 - 3dprinting
-- Shapeways
+- shapeways
 - copyright
 tumblr_permalink: post/144255692885/cheerleader-uniforms-and-3d-printing-are-going
 ---

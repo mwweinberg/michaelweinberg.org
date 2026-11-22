@@ -4,7 +4,6 @@ title: Announcing the OSHWA Open Source Hardware Certification Program
 date: '2016-10-08T10:05:37-04:00'
 tags:
 - oshwa
-- OSHW
 - opensourcehardware
 tumblr_permalink: post/151514858360/announcing-the-oshwa-open-source-hardware
 ---

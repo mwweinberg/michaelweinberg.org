@@ -4,7 +4,7 @@ title: Update from the Limitless World of Left Shark IP
 date: '2015-04-22T18:17:48-04:00'
 tags:
 - 3dprinting
-- Shapeways
+- shapeways
 tumblr_permalink: post/117117774055/update-from-the-limitless-world-of-left-shark-ip
 ---
 <p>Many of you will likely remember that shortly after the Super Bowl there was a <a href="https://www.shapeways.com/blog/archives/19920-left-sharks-back-alright.html" target="_blank">bit of a thing</a>

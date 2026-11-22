@@ -3,7 +3,7 @@ layout: post
 title: SW Policy Update Post
 date: '2015-11-05T17:14:05-05:00'
 tags:
-- Shapeways
+- shapeways
 - 3dprinting
 - policy
 tumblr_permalink: post/132624574740/sw-policy-update-post

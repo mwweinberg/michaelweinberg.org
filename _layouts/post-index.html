@@ -4,34 +4,33 @@
 {% include "head.html" %}
 </head>
 
-<body id="post-index" {% if image.feature %}class="feature"{% endif %}>
-
+<body id="post-index" class="layout-index{% if image.feature %} has-hero{% endif %}">
+{% if image.feature %}{% assign hero = true %}{% else %}{% assign hero = false %}{% endif %}
 {% include "navigation.html" %}
 
-<div class="entry-header">
-  {% if image.credit %}<div class="image-credit">Image source: <a href="{{ image.creditlink }}">{{ image.credit }}</a></div><!-- /.image-credit -->{% endif %}
-  {% if image.feature %}
-    <div class="entry-image">
-      <img src="/images/{{ image.feature }}" alt="{{ image.alt | default: '' }}"{% if image.focus %} style="object-position: {{ image.focus }}"{% endif %}>
-    </div><!-- /.entry-image -->
-  {% endif %}
-  <div class="header-title">
-    <div class="header-title-wrap">
-      <h1 class="site-title">{{ site.title }}</h1>
-      <h2 class="site-subtitle">{{ title }}</h2>
-    </div><!-- /.header-title-wrap -->
-  </div><!-- /.header-title -->
-</div><!-- /.entry-header -->
+{% if image.feature %}
+<div class="hero">
+  <img class="hero__image" src="/images/{{ image.feature }}" alt="{{ image.alt | default: '' }}"{% if image.focus %} style="object-position: {{ image.focus }}"{% endif %}>
+  <div class="hero__text">
+    <h1 class="hero__title">{{ site.title }}</h1>
+    <p class="hero__subtitle">{{ title }}</p>
+  </div>
+  {% if image.credit %}<p class="hero__credit">Image: <a href="{{ image.creditlink }}">{{ image.credit }}</a></p>{% endif %}
+</div>
+{% else %}
+<div class="page-heading">
+  <h1 class="page-heading__title">{{ title }}</h1>
+  {% if intro %}<p class="page-heading__intro">{{ intro }}</p>{% endif %}
+</div>
+{% endif %}
 
-<div id="main" role="main">
+<main id="main" class="main">
   {{ content }}
-</div><!-- /#main -->
+</main>
 
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    {% include "footer.html" %}
-  </footer>
-</div><!-- /.footer-wrapper -->
+<footer class="site-footer" role="contentinfo">
+  {% include "footer.html" %}
+</footer>
 
 {% include "scripts.html" %}
 

@@ -6,7 +6,7 @@ date: 2020-05-15
 tags:
 - opensourcehardware
 - copyright
-- GLAM
+- glam
 image:
      feature: good-bad.jpg
 

@@ -1,0 +1,30 @@
+---
+layout: post-index
+title: Projects
+description: "Things I've made."
+---
+
+{%- comment %}
+  Every post tagged "projects", newest first, as a grid of cards. The picture is the post's main
+  picture, or else the first picture in its text (filter "cardImage" in eleventy.config.mjs);
+  posts with no picture at all get a plain block with their title.
+{% endcomment %}
+{% assign project_posts = collections.posts | getPostsByTag: "projects" %}
+
+<p class="archive-count">{{ project_posts.size }} projects, newest first.</p>
+
+<ul class="project-grid">
+  {% for post in project_posts %}
+  {% assign img = post | cardImage %}
+  <li class="project-card">
+    <a class="project-card__image{% unless img != "" %} project-card__image--none{% endunless %}" href="{{ post.url }}" tabindex="-1" aria-hidden="true">
+      {% if img != "" %}<img src="{{ img }}" alt="" loading="lazy">{% else %}<span>{{ post.data.title }}</span>{% endif %}
+    </a>
+    <div class="project-card__body">
+      <h2 class="project-card__title"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+      <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %Y" }}</time></p>
+      <p class="project-card__text">{{ post.templateContent | excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

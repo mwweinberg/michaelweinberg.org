@@ -56,9 +56,6 @@
 @import "mixins";
 @import "reset";
 @import "vendor/magnific-popup/magnific-popup";
-@import "site";
-@import "typography";
-@import "elements";
-@import "animations";
-@import "dl-menu";
-@import "page";
+// 2026-11 redesign: one new stylesheet replaces _site, _typography, _elements, _animations,
+// _dl-menu and _page (those files are still in _sass but no longer used)
+@import "redesign";

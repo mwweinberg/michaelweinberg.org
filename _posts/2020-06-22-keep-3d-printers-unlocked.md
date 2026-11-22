@@ -6,7 +6,7 @@ date: 2020-06-22
 tags:
 - copyright
 - 3dprinting
-- '1201'
+- 1201
 - dmca
 - make
 image:

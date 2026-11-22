@@ -6,7 +6,7 @@ date: 2018-10-28
 tags:
 - copyright
 - 3dprinting
-- '1201'
+- 1201
 image:
     feature: jefferson_building.jpg
 ---

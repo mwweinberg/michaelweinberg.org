@@ -5,10 +5,10 @@ title: Why Can't You Own an Ebook?
 date: 2023-10-11
 tags:
 - openaccess
-- NYU
+- nyu
 - whitepapers
 - copyright
-- 'first sale'
+- first sale
 image:
      feature: the-anti-ownership-ebook-economy-cover.png
 

@@ -4,7 +4,7 @@ title: Replying to 3D Printing Unlocking Followup questions
 date: '2015-06-29T17:52:41-04:00'
 tags:
 - 3dprinting
-- '1201'
+- 1201
 tumblr_permalink: post/122795460365/replying-to-3d-printing-unlocking-followup
 ---
 <p>After the <a href="http://michaelweinberg.org/post/120129192925/unlocking-3d-printing-hearing" target="_blank">hearing</a>, the Copyright Office submitted an <a href="http://copyright.gov/1201/2015/post-hearing/Post%20hearing%20questions%20for%20class%2026-signed.pdf" target="_blank">additional question</a> about unlocking 3D printing.  The question was:</p><blockquote><p>During the hearing for this class, opponents of the proposed

@@ -5,7 +5,7 @@ title: New Open GLAM Toolkit & Open GLAM Survey from the GLAM-E Lab
 date: 2024-12-13
 tags:
 - openaccess
-- NYU
+- nyu
 - glam-e
 image:
      feature: tools.jpg

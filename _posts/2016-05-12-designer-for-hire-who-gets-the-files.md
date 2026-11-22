@@ -3,7 +3,7 @@ layout: post
 title: 'Designer For Hire: Who Gets the Files?'
 date: '2016-05-12T13:29:45-04:00'
 tags:
-- Shapeways
+- shapeways
 - copyright
 tumblr_permalink: post/144255750100/designer-for-hire-who-gets-the-files
 ---

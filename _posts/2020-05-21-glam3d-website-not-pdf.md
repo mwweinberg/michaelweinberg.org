@@ -6,7 +6,7 @@ date: 2020-05-21 10:01:00
 tags:
 - openaccess
 - copyright
-- GLAM
+- glam
 image:
      feature: glam3d_header.jpg
 

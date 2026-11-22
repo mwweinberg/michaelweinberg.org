@@ -4,9 +4,9 @@ category: blog
 title: Announcing the Winner of the SMK Jewelry Design Contest
 date: 2017-07-14
 tags:
-- Shapeways
+- shapeways
 - public domain
-- GLAM
+- glam
 image:
      feature:
 

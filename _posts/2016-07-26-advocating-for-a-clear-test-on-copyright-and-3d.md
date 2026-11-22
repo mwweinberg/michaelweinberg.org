@@ -3,7 +3,7 @@ layout: post
 title: Advocating for a Clear Test on Copyright and 3D Printed Objects
 date: '2016-07-26T12:56:22-04:00'
 tags:
-- Shapeways
+- shapeways
 - copyright
 - 3dprinting
 tumblr_permalink: post/148004257950/advocating-for-a-clear-test-on-copyright-and-3d

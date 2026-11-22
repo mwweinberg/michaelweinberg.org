@@ -5,7 +5,7 @@ title: The Smithsonian Goes Open Access
 date: 2020-03-01
 tags:
 - public domain
-- GLAM
+- glam
 image:
     feature: copyinginthelouvre_crop.jpg
 

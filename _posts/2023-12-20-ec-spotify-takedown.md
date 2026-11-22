@@ -4,7 +4,7 @@ category: blog
 title: How Explaining Copyright Broke the Spotify Copyright System
 date: 2023-12-20
 tags:
-- NYU
+- nyu
 - copyright
 - dmca
 image:

@@ -4,8 +4,8 @@ category: blog
 title: OSHWA Supports Design Patent Clarity in Amicus Brief
 date: 2019-01-05
 tags:
-- OSHWA
-- Design Patent
+- oshwa
+- design patent
 image:
      feature: curver-amicus-cover.jpg
 

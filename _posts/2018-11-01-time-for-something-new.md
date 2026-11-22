@@ -4,8 +4,8 @@ category: blog
 title: Time For Something New
 date: 2018-11-01
 tags:
-- NYU
-- Shapeways
+- nyu
+- shapeways
 image:
     feature: engelberg_logo_grey.jpg
 ---

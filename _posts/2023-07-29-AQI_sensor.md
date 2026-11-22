@@ -5,7 +5,7 @@ title: AQI Sensor
 date: 2023-07-29
 tags:
 - projects
-- OSHW
+- opensourcehardware
 - circuitpython
 image:
      feature: aqi_display.jpg

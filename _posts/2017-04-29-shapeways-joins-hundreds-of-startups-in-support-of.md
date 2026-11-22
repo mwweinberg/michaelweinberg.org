@@ -3,7 +3,7 @@ layout: post
 title: Shapeways Joins Hundreds of Startups in Support of Net Neutrality
 date: '2017-04-29T08:12:24-04:00'
 tags:
-- Shapeways
+- shapeways
 - net neutrality
 tumblr_permalink: post/160115745915/shapeways-joins-hundreds-of-startups-in-support-of
 ---

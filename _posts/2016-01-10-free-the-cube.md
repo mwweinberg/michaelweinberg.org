@@ -4,7 +4,7 @@ title: Free the Cube
 date: '2016-01-10T17:51:20-05:00'
 tags:
 - 3dprinting
-- '1201'
+- 1201
 tumblr_permalink: post/137045828005/free-the-cube
 ---
 <figure class="tmblr-full" data-orig-height="427" data-orig-width="640"><img src="/images/2016-01-10-free-the-cube.html0.jpg" data-orig-height="427" data-orig-width="640"/></figure><p>During the slow news week at the very end of last year, 3D Systems <a href="http://www.3dsystems.com/press-releases/3d-systems-end-life-cube-its-entry-level-consumer-3d-printer" target="_blank">announced</a> that they were stepping away from their
